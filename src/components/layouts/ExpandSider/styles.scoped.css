@@ -1,0 +1,56 @@
+.nav-item {
+  color: var(--text-color);
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.nav-item > section {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  padding: 0.5rem;
+  position: relative;
+  transition: background-color 0.25s;
+  color: var(--black-4);
+}
+
+.nav-item > section > svg {
+  margin-right: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.nav-item > section > img {
+  margin-left: auto;
+  transition: transform 0.25s;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.nav-item > section > img.open {
+  transform: rotate(-180deg);
+}
+
+.nav-item > ul {
+  overflow-y: hidden;
+  position: relative;
+  transition: max-height 0.25s;
+}
+
+.nav-item > ul > li {
+  margin-bottom: 0.5rem;
+}
+
+.nav-item > ul > li > a {
+  display: block;
+  padding: 0.5rem 3rem;
+  transition: background-color 0.25s;
+}
+
+.nav-item > ul > li > a.active {
+  background-color: var(--grey-color-3);
+  border-radius: 0.1875rem;
+  color: var(--primary-color);
+}

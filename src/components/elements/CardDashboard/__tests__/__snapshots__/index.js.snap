@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/CardDashboard nolink 1`] = `
+<Row
+  alignContent=""
+  alignItem=""
+  className=""
+  direction=""
+  id=""
+  justify=""
+  noGutter={false}
+>
+  <Col
+    className=""
+    id=""
+    lg=""
+    md=""
+    offsetLg=""
+    offsetMd=""
+    offsetSm=""
+    offsetXL=""
+    offsetXs=""
+    orderLg=""
+    orderMd=""
+    orderSm=""
+    orderXl=""
+    orderXs=""
+    sm=""
+    xl=""
+    xs="8"
+  >
+    Belum Dibayar
+  </Col>
+  <Col
+    className=""
+    id=""
+    lg=""
+    md=""
+    offsetLg=""
+    offsetMd=""
+    offsetSm=""
+    offsetXL=""
+    offsetXs=""
+    orderLg=""
+    orderMd=""
+    orderSm=""
+    orderXl=""
+    orderXs=""
+    sm=""
+    xl=""
+    xs="4"
+  >
+    <Tooltip
+      content={
+        <div>
+          Object {
+            "_owner": null,
+            "_store": Object {},
+            "key": null,
+            "props": Object {
+              "children": Array [
+                "Total transaksi proforma pengurusan baru ",
+                Object {
+                  "_owner": null,
+                  "_store": Object {},
+                  "key": null,
+                  "props": Object {},
+                  "ref": null,
+                  "type": "br",
+                },
+                "dan perpanjangan yang belum dibayar PPJK",
+              ],
+            },
+            "ref": null,
+            "type": "p",
+          }
+        </div>
+      }
+      delay={0}
+      direction="left"
+    >
+      <img
+        src="/assets/ic-info.svg"
+      />
+    </Tooltip>
+  </Col>
+  <Col
+    className=""
+    id=""
+    lg=""
+    md=""
+    offsetLg=""
+    offsetMd=""
+    offsetSm=""
+    offsetXL=""
+    offsetXs=""
+    orderLg=""
+    orderMd=""
+    orderSm=""
+    orderXl=""
+    orderXs=""
+    sm=""
+    xl=""
+    xs="12"
+  >
+    <Typography
+      spacing=""
+    >
+      Rp 0
+    </Typography>
+  </Col>
+</Row>
+`;
+
+exports[`src/components/elements/CardDashboard render 1`] = `
+<Row
+  alignContent=""
+  alignItem=""
+  className=""
+  direction=""
+  id=""
+  justify=""
+  noGutter={false}
+>
+  <Col
+    className=""
+    id=""
+    lg=""
+    md=""
+    offsetLg=""
+    offsetMd=""
+    offsetSm=""
+    offsetXL=""
+    offsetXs=""
+    orderLg=""
+    orderMd=""
+    orderSm=""
+    orderXl=""
+    orderXs=""
+    sm=""
+    xl=""
+    xs="8"
+  >
+    <Link
+      to="/proforma?proformaDetailsStatus=CREATED"
+    >
+      Belum Dibayar
+    </Link>
+  </Col>
+  <Col
+    className=""
+    id=""
+    lg=""
+    md=""
+    offsetLg=""
+    offsetMd=""
+    offsetSm=""
+    offsetXL=""
+    offsetXs=""
+    orderLg=""
+    orderMd=""
+    orderSm=""
+    orderXl=""
+    orderXs=""
+    sm=""
+    xl=""
+    xs="4"
+  >
+    <Tooltip
+      content={
+        <div>
+          Object {
+            "_owner": null,
+            "_store": Object {},
+            "key": null,
+            "props": Object {
+              "children": Array [
+                "Total transaksi proforma pengurusan baru ",
+                Object {
+                  "_owner": null,
+                  "_store": Object {},
+                  "key": null,
+                  "props": Object {},
+                  "ref": null,
+                  "type": "br",
+                },
+                "dan perpanjangan yang belum dibayar PPJK",
+              ],
+            },
+            "ref": null,
+            "type": "p",
+          }
+        </div>
+      }
+      delay={0}
+      direction="left"
+    >
+      <img
+        src="/assets/ic-info.svg"
+      />
+    </Tooltip>
+  </Col>
+  <Col
+    className=""
+    id=""
+    lg=""
+    md=""
+    offsetLg=""
+    offsetMd=""
+    offsetSm=""
+    offsetXL=""
+    offsetXs=""
+    orderLg=""
+    orderMd=""
+    orderSm=""
+    orderXl=""
+    orderXs=""
+    sm=""
+    xl=""
+    xs="12"
+  >
+    <Link
+      to="/proforma?proformaDetailsStatus=CREATED"
+    >
+      <Typography
+        spacing=""
+      >
+        Rp 0
+      </Typography>
+      <img
+        src="/assets/ic-arrow-right.png"
+      />
+    </Link>
+  </Col>
+</Row>
+`;

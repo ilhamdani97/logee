@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@mocks/*": ["__mocks__/*"],
+        "@assets/*": ["src/assets/*"],
+        "@components/*": ["src/components/*"],
+        "@pages/*": ["src/pages/*"],
+        "@utils/*": ["src/utils/*"],
+        "@store/*": ["src/store/*"],
+        "@configs/*": ["src/configs/*"],
+        "@layouts/*": ["src/components/layouts/*"],
+        "@fragments/*": ["src/components/fragments/*"],
+        "@services/*": ["src/services/*"],
+        "@actioncreator/*": ["src/actioncreator/*"],
+      },
+    },
+    "exclude": ["node_modules"]
+  }
+  

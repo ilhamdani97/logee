@@ -1,0 +1,30 @@
+.root {
+  margin-bottom: 0.1875rem;
+}
+
+.root > ul {
+  display: flex;
+  color: #a0a4a8;
+}
+
+.root > ul > span {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.root > ul > li,
+.root > ul > li > a {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-transform: capitalize;
+}
+
+.root > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+.root > ul > li:last-child > a {
+  text-decoration: none;
+  pointer-events: none;
+  cursor: not-allowed;
+}

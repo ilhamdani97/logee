@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fields/Search render 1`] = `
+<div
+  className=""
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <div>
+      <input
+        disabled={false}
+        onChange={[Function]}
+        placeholder="Cari"
+        value="keyword"
+      />
+      <div>
+        <Button
+          buttonProps={
+            Object {
+              "type": "submit",
+            }
+          }
+          className=""
+          disabled={false}
+          isLoading={false}
+          onClick={[Function]}
+        >
+          <img
+            src="/assets/search.svg"
+          />
+        </Button>
+      </div>
+    </div>
+  </form>
+</div>
+`;

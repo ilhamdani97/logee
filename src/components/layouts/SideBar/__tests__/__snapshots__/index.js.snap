@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/SideBar render  1`] = `
+<nav>
+  <React.Fragment>
+    <NavSider
+      data={
+        Object {
+          "icon": Object {},
+          "name": "SSO Logee Port",
+          "to": "/",
+        }
+      }
+    />
+  </React.Fragment>
+  <React.Fragment>
+    <NavSider
+      data={
+        Object {
+          "icon": Object {},
+          "name": "Dashboard",
+          "to": "/jict",
+        }
+      }
+    />
+  </React.Fragment>
+  <React.Fragment>
+    <ExpandSider
+      data={
+        Object {
+          "children": Array [
+            Object {
+              "icon": Object {},
+              "name": "List Proforma",
+              "to": "/jict/listingproforma?type=EXPORT",
+            },
+            Object {
+              "icon": Object {},
+              "name": "List Pesanan Truk",
+              "to": "/jict/listingordertruck?type=EXPORT",
+            },
+            Object {
+              "icon": Object {},
+              "name": "Order Detail",
+              "to": "/jict/orderdetailtruck",
+            },
+            Object {
+              "icon": Object {},
+              "name": "Order Truck",
+              "to": "/jict/ordertruck",
+            },
+          ],
+          "icon": Object {},
+          "name": "Ekspor",
+        }
+      }
+      index={2}
+    />
+  </React.Fragment>
+  <React.Fragment>
+    <ExpandSider
+      data={
+        Object {
+          "children": Array [
+            Object {
+              "icon": Object {},
+              "name": "List Proforma",
+              "to": "/jict/listingproforma?type=IMPORT",
+            },
+            Object {
+              "icon": Object {},
+              "name": "List Pesanan Truk",
+              "to": "/jict/listingordertruck?type=IMPORT",
+            },
+            Object {
+              "icon": Object {},
+              "name": "Order Detail",
+              "to": "/jict/orderdetailtruck",
+            },
+          ],
+          "icon": Object {},
+          "name": "Impor",
+        }
+      }
+      index={3}
+    />
+  </React.Fragment>
+</nav>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/RenderCustomizedLabel render 1`] = `
+<g>
+  <circle
+    cx={NaN}
+    cy={NaN}
+    r="15"
+  />
+  <text
+    dominantBaseline="central"
+    fill="black"
+    textAnchor="middle"
+    x={NaN}
+    y={NaN}
+  >
+    NaN%
+  </text>
+</g>
+`;

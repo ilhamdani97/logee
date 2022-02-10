@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Breadcrumb render 1`] = `
+<section>
+  <ul>
+    <li>
+      <Link
+        to="/jict/listingordertruck?type=EXPORT"
+      >
+        impor
+      </Link>
+    </li>
+    <React.Fragment>
+      <span>
+        /
+      </span>
+      <li>
+        <Link
+          to="/jict/listingordertruck?type=EXPORT"
+        >
+          List Pesanan Truk
+        </Link>
+      </li>
+    </React.Fragment>
+  </ul>
+</section>
+`;

@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/ChartDonatPort render 1`] = `
+<div>
+  <ForwardRef>
+    <PieChart
+      barCategoryGap="10%"
+      barGap={4}
+      cx="50%"
+      cy="50%"
+      endAngle={360}
+      innerRadius={0}
+      layout="centric"
+      margin={
+        Object {
+          "bottom": 5,
+          "left": 5,
+          "right": 5,
+          "top": 5,
+        }
+      }
+      outerRadius="80%"
+      reverseStackOrder={false}
+      stackOffset="none"
+      startAngle={0}
+      syncMethod="index"
+    >
+      <Pie
+        animationBegin={400}
+        animationDuration={1500}
+        animationEasing="ease"
+        blendStroke={false}
+        cornerRadius={100}
+        cx="50%"
+        cy="50%"
+        data={
+          Array [
+            Object {
+              "name": "totalOnProcess",
+              "value": 0,
+            },
+            Object {
+              "name": "totalOnConfirm",
+              "value": 2,
+            },
+            Object {
+              "name": "totalOnDelivery",
+              "value": 1,
+            },
+            Object {
+              "name": "totalDone",
+              "value": 11,
+            },
+            Object {
+              "name": "totalExpired",
+              "value": 0,
+            },
+          ]
+        }
+        dataKey="value"
+        endAngle={-180}
+        fill="#808080"
+        hide={false}
+        innerRadius={85}
+        isAnimationActive={true}
+        label={<RenderCustomizedLabel />}
+        labelLine={false}
+        legendType="rect"
+        minAngle={0}
+        nameKey="name"
+        outerRadius={110}
+        paddingAngle={-10}
+        startAngle={180}
+        stroke="none"
+      >
+        <Cell
+          fill="#FAB005"
+        />
+        <Cell
+          fill="#56C281"
+        />
+        <Cell
+          fill="#064C6F"
+        />
+        <Cell
+          fill="#8DD4F7"
+        />
+        <Cell
+          fill="#DE1B1B"
+        />
+      </Pie>
+    </PieChart>
+  </ForwardRef>
+</div>
+`;

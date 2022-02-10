@@ -1,0 +1,44 @@
+.root {
+  margin-top: 20px;
+}
+.root > button {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.error {
+  margin-top: 0.5rem;
+  color: var(--error-color);
+}
+
+.password {
+  margin-bottom: 12px;
+}
+
+.term {
+  margin-top: 20px;
+}
+
+.term span {
+  text-align: center;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.info {
+  position: relative;
+}
+
+.infoForm {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.infoForm div div {
+  top: 20px;
+  background-color: black;
+  height: 77px;
+  text-align: center;
+  padding: 10px 10px;
+}

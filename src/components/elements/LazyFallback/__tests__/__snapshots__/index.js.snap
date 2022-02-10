@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/LazyFallback render 1`] = `
+<div>
+  <div>
+    <div />
+    <p>
+      Memuat
+    </p>
+  </div>
+</div>
+`;

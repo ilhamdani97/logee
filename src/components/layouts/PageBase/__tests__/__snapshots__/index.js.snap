@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/PageBase render 1`] = `
+<Provider
+  value={
+    Object {
+      "router": "",
+      "setRouter": [MockFunction] {
+        "calls": Array [
+          Array [
+            null,
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+      "setShowMenu": [MockFunction],
+      "showMenu": false,
+    }
+  }
+>
+  <DashboardHeader />
+  <DashboardMenu />
+  <main />
+</Provider>
+`;

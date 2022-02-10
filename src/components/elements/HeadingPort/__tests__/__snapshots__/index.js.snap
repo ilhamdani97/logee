@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/HeadingPort render 1`] = `
+<div>
+  <Typography
+    spacing=""
+    variant="h4"
+  >
+    
+  </Typography>
+</div>
+`;

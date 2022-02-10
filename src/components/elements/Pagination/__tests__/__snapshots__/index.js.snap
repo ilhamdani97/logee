@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Pagination IconArrow 1`] = `
+<link
+  disabled={false}
+  to={
+    Object {
+      "pathname": undefined,
+      "search": "?",
+    }
+  }
+>
+  <img
+    src=""
+    title=""
+  />
+</link>
+`;
+
+exports[`src/components/elements/Pagination PageNumber 1`] = `Array []`;
+
+exports[`src/components/elements/Pagination render 1`] = `
+<section
+  className=""
+>
+  <IconArrow
+    disabled={false}
+    icon="../../../assets/ic-chevron-left.svg"
+    location={Object {}}
+    title="Prev Page"
+    to={
+      Object {
+        "page": 1,
+      }
+    }
+  />
+  <PageNumber
+    location={Object {}}
+    meta={Object {}}
+  />
+  <IconArrow
+    disabled={false}
+    icon="../../../assets/ic-chevron-right.svg"
+    location={Object {}}
+    title="Next Page"
+    to={
+      Object {
+        "page": 2,
+      }
+    }
+  />
+</section>
+`;

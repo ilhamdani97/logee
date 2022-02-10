@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Notification render 1`] = `
+<div
+  className=" "
+  onMouseLeave={[Function]}
+>
+  <div />
+  <div>
+    <section>
+      <div>
+        Notifikasi
+      </div>
+      <div
+        onClick={[Function]}
+      >
+        Lihat Semua
+      </div>
+    </section>
+    <section
+      className=""
+    >
+      <div>
+        <div
+          onClick={[Function]}
+        >
+          <div
+            className=""
+          >
+            DD MMM YYYY
+          </div>
+          <div>
+            <div
+              className=""
+            />
+            <div>
+              <span
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Order baru layanan truk ",
+                  }
+                }
+              />
+              <span>
+                No. Pesanan LT-202108030021
+              </span>
+              <span
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": " oleh <b>BUDI JAYA SEJAHTERA ABADI</b>menggunakan truk milik <b>BINTANG EXPRESS</b> dari <b>Kec. Cibeunying Kidul</b> menuju <b>Malang</b> nilai transaksi <b>Rp500.000,00</b>",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div>
+            HH:mm
+          </div>
+        </div>
+        <div
+          onClick={[Function]}
+        >
+          <div>
+            DD MMM YYYY
+          </div>
+          <div>
+            <div
+              className=""
+            />
+            <div>
+              <span
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Order baru layanan truk ",
+                  }
+                }
+              />
+              <span>
+                No. Pesanan LT-202108030021
+              </span>
+              <span
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": " oleh <b>BUDI JAYA SEJAHTERA ABADI</b>menggunakan truk milik <b>BINTANG EXPRESS</b> dari <b>Kec. Cibeunying Kidul</b> menuju <b>Malang</b> nilai transaksi <b>Rp500.000,00</b>",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div>
+            HH:mm
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;

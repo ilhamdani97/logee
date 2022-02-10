@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/CollapseInfo render 1`] = `
+<div>
+  <CollapseCard
+    className=""
+    collapsable={true}
+    collapseDefault={true}
+    icon={null}
+    iconBgColor=""
+    title={
+      <HeaderCollaps
+        data={
+          Object {
+            "subTitle": "Total armada berdasarkan jenis dan kapasitasnya pada periode waktu yang dipilih.",
+            "title": "Armada",
+            "total": "24",
+          }
+        }
+      />
+    }
+  />
+  <Row
+    alignContent=""
+    alignItem=""
+    className=""
+    direction=""
+    id=""
+    justify="space-between"
+    noGutter={false}
+  >
+    <Col
+      className=""
+      id=""
+      lg=""
+      md=""
+      offsetLg=""
+      offsetMd=""
+      offsetSm=""
+      offsetXL=""
+      offsetXs=""
+      orderLg=""
+      orderMd=""
+      orderSm=""
+      orderXl=""
+      orderXs=""
+      sm=""
+      xl=""
+      xs="4"
+    >
+      <Typography
+        spacing=""
+      >
+        Total
+      </Typography>
+    </Col>
+    <Col
+      className=""
+      id=""
+      lg=""
+      md=""
+      offsetLg=""
+      offsetMd=""
+      offsetSm=""
+      offsetXL=""
+      offsetXs=""
+      orderLg=""
+      orderMd=""
+      orderSm=""
+      orderXl=""
+      orderXs=""
+      sm=""
+      xl=""
+      xs="4"
+    >
+      24
+    </Col>
+  </Row>
+</div>
+`;

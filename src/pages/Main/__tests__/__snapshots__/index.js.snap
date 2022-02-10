@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Main render 1`] = `
+<Provider
+  value={
+    Object {
+      "mainInit": "dashboard page",
+      "setMainInit": [MockFunction],
+    }
+  }
+>
+  <div>
+    <HeadingPort
+      title="dashboard page"
+    />
+    <Typography
+      spacing=""
+      variant="h1"
+    >
+      Selamat datang di Logee
+    </Typography>
+  </div>
+</Provider>
+`;

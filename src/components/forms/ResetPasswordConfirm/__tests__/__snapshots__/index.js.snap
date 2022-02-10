@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/ResetPasswordConfirm render 1`] = `
+<React.Fragment>
+  <h3>
+    Ubah Kata Sandi
+  </h3>
+  <form>
+    <Field
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "compare": [Function],
+          "type": [Function],
+        }
+      }
+      inputProps={
+        Object {
+          "placeholder": "Masukan kata sandi baru",
+        }
+      }
+      label="Kata sandi baru"
+      name="newPassword"
+    />
+    <Field
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "compare": [Function],
+          "type": [Function],
+        }
+      }
+      inputProps={
+        Object {
+          "placeholder": "Masukan ulang kata sandi baru",
+        }
+      }
+      label="Ulangi kata sandi baru"
+      name="confirmPassword"
+    />
+    <Button
+      buttonProps={Object {}}
+      className=""
+      color="default"
+      disabled={false}
+      fullwidth={false}
+      isLoading={false}
+      loadingType="text"
+      onClick={[Function]}
+      size="medium"
+    >
+      Ubah Kata Sandi
+    </Button>
+  </form>
+  <span>
+    test
+  </span>
+</React.Fragment>
+`;

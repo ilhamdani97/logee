@@ -1,0 +1,168 @@
+.nav {
+  margin-top: 1rem;
+  width: 14rem;
+}
+
+.nav > a {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  transition: background-color 0.25s;
+}
+
+.nav > a > section {
+  align-items: center;
+  color: var(--black-4);
+  display: flex;
+}
+
+.nav > a > section > svg {
+  margin-right: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.nav > a:hover,
+.nav > a.active,
+.nav-item > section:hover,
+.nav-item > ul > li > a:hover {
+  background-color: #BDBDBD;
+  border-right: 0.3rem solid #FFA726;
+}
+
+.nav > a.active > section {
+  color: #FF9800;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  color: #FF9800;
+}
+
+.nav > a.active > section > svg > path {
+  fill: black;
+}
+
+.nav-item {
+  color: var(--text-color);
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.nav-item > section {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  padding: 0.5rem;
+  position: relative;
+  transition: background-color 0.25s;
+  color: var(--black-4);
+}
+
+.nav-item > section > svg {
+  margin-right: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.nav-item > section > img {
+  margin-left: auto;
+  transition: transform 0.25s;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.nav-item > section > img.open {
+  transform: rotate(-180deg);
+}
+
+.nav-item > ul {
+  overflow-y: hidden;
+  position: relative;
+  transition: max-height 0.25s;
+}
+
+.nav-item > ul > li {
+  margin-bottom: 0.5rem;
+}
+
+.nav-item > ul > li > a {
+  display: block;
+  padding: 0.5rem 3rem;
+  transition: background-color 0.25s;
+}
+
+.nav-item > ul > li > a.active {
+  background-color: var(--grey-color-3);
+  border-radius: 0.1875rem;
+  color: var(--primary-color);
+}
+
+.belNotif {
+  position: relative;
+  cursor: pointer;
+}
+
+.handleLogout {
+  display: flex;
+  padding-left: 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 100px;
+}
+
+.handleLogout > div:nth-child(2) {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  color: #000000;
+}
+
+.boxUnread {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--error-color);
+}
+
+.boxUnread > span {
+  color: var(--background-color-2);
+  font-size: 0.5rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.boxUnreadHide {
+  display: none;
+}
+
+.separator {
+  width: 100%;
+  height: 0.0625rem;
+  margin: 0.75rem 0;
+  background-color: var(--grey-40);
+}
+
+.noPadding {
+  padding: 0;
+}

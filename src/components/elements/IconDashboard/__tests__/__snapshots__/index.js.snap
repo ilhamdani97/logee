@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/IconDashboard render 1`] = `
+<svg
+  fill="none"
+  height={24}
+  viewBox="0 0 24 24"
+  width={24}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M12.5953 5H19V9.45437H12.5953V5Z"
+    fill="#25282B"
+  />
+  <path
+    d="M5 13.3725H11.4047V5.001H5V13.3725Z"
+    fill="#25282B"
+  />
+  <path
+    d="M12.5953 10.6295H19V19H12.5953V10.6295Z"
+    fill="#25282B"
+  />
+  <path
+    d="M5 14.5456H11.4047V19H5V14.5456Z"
+    fill="#25282B"
+  />
+</svg>
+`;

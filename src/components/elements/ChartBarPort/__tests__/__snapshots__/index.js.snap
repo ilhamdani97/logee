@@ -1,0 +1,407 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/ChartBarPort render 1`] = `
+<div>
+  <ForwardRef>
+    <BarChart
+      barCategoryGap="10%"
+      barGap={4}
+      data={
+        Array [
+          Object {
+            "periodNode": "Jan",
+            "periodNodeId": 1,
+            "totalContainer": 1,
+            "totalTransaction": 967522920,
+            "xAxisBar": 0,
+            "yAxisBar": 967,
+            "yAxisUnit": 967,
+            "yStacked": "0",
+          },
+        ]
+      }
+      layout="horizontal"
+      margin={
+        Object {
+          "bottom": 5,
+          "left": 5,
+          "right": 5,
+          "top": 5,
+        }
+      }
+      reverseStackOrder={false}
+      stackOffset="none"
+      syncMethod="index"
+    >
+      <XAxis
+        allowDataOverflow={false}
+        allowDecimals={true}
+        allowDuplicatedCategory={true}
+        dataKey=""
+        domain={
+          Array [
+            0,
+            "auto",
+          ]
+        }
+        height={30}
+        hide={false}
+        mirror={false}
+        orientation="bottom"
+        padding={
+          Object {
+            "left": 0,
+            "right": 0,
+          }
+        }
+        reversed={false}
+        scale="auto"
+        tickCount={5}
+        type="category"
+        width={0}
+        xAxisId={0}
+      />
+      <YAxis
+        allowDataOverflow={false}
+        allowDecimals={true}
+        allowDuplicatedCategory={true}
+        dataKey="yAxisUnit"
+        domain={
+          Array [
+            0,
+            "auto",
+          ]
+        }
+        height={0}
+        hide={false}
+        mirror={false}
+        orientation="right"
+        padding={
+          Object {
+            "bottom": 0,
+            "top": 0,
+          }
+        }
+        reversed={false}
+        scale="auto"
+        tickCount={5}
+        type="number"
+        unit="jt"
+        width={60}
+        yAxisId={0}
+      />
+      <Tooltip
+        active={false}
+        allowEscapeViewBox={
+          Object {
+            "x": false,
+            "y": false,
+          }
+        }
+        animationDuration={400}
+        animationEasing="ease"
+        content={
+          <CustomTooltip
+            active={false}
+            customProps={
+              Object {
+                "titleBottom": Object {
+                  "currency": true,
+                  "subCaption": "Transaksi",
+                  "tooltipColor": "primary",
+                  "value": "totalTransaction",
+                },
+                "titleUpper": Object {
+                  "currency": false,
+                  "subCaption": "Kontainer",
+                  "tooltipColor": "primary",
+                  "value": "totalContainer",
+                },
+              }
+            }
+            payload={Array []}
+          />
+        }
+        contentStyle={Object {}}
+        coordinate={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        cursor={
+          Object {
+            "fill": "#efefef",
+          }
+        }
+        cursorStyle={Object {}}
+        filterNull={true}
+        isAnimationActive={true}
+        itemStyle={Object {}}
+        labelStyle={Object {}}
+        offset={10}
+        position={
+          Object {
+            "x": NaN,
+            "y": NaN,
+          }
+        }
+        separator=" : "
+        trigger="hover"
+        useTranslate3d={false}
+        viewBox={
+          Object {
+            "x1": 0,
+            "x2": 0,
+            "y1": 0,
+            "y2": 0,
+          }
+        }
+        wrapperStyle={Object {}}
+      />
+      <CartesianGrid
+        fill="none"
+        horizontal={true}
+        horizontalFill={Array []}
+        horizontalPoints={Array []}
+        stroke="#eee"
+        strokeDasharray="5 0"
+        vertical={true}
+        verticalFill={Array []}
+        verticalPoints={Array []}
+      />
+      <Bar
+        animationBegin={0}
+        animationDuration={400}
+        animationEasing="ease"
+        barSize={10}
+        data={Array []}
+        dataKey="yAxisUnit"
+        fill="#e8590c"
+        hide={false}
+        isAnimationActive={true}
+        layout="vertical"
+        legendType="rect"
+        minPointSize={0}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        xAxisId={0}
+        yAxisId={0}
+      />
+    </BarChart>
+  </ForwardRef>
+</div>
+`;
+
+exports[`src/components/elements/ChartBarPort render bar stacj 1`] = `
+<div>
+  <ForwardRef>
+    <BarChart
+      barCategoryGap="10%"
+      barGap={4}
+      data={
+        Array [
+          Object {
+            "periodNode": "Jan",
+            "periodNodeId": 1,
+            "totalContainer": 1,
+            "totalTransaction": 967522920,
+            "xAxisBar": 0,
+            "yAxisBar": 967,
+            "yAxisUnit": 967,
+            "yStacked": "0",
+          },
+        ]
+      }
+      layout="horizontal"
+      margin={
+        Object {
+          "bottom": 5,
+          "left": 5,
+          "right": 5,
+          "top": 5,
+        }
+      }
+      reverseStackOrder={false}
+      stackOffset="none"
+      syncMethod="index"
+    >
+      <XAxis
+        allowDataOverflow={false}
+        allowDecimals={true}
+        allowDuplicatedCategory={true}
+        dataKey=""
+        domain={
+          Array [
+            0,
+            "auto",
+          ]
+        }
+        height={30}
+        hide={false}
+        mirror={false}
+        orientation="bottom"
+        padding={
+          Object {
+            "left": 0,
+            "right": 0,
+          }
+        }
+        reversed={false}
+        scale="auto"
+        tickCount={5}
+        type="category"
+        width={0}
+        xAxisId={0}
+      />
+      <YAxis
+        allowDataOverflow={false}
+        allowDecimals={true}
+        allowDuplicatedCategory={true}
+        dataKey="yStacked"
+        domain={
+          Array [
+            0,
+            "auto",
+          ]
+        }
+        height={0}
+        hide={false}
+        mirror={false}
+        orientation="right"
+        padding={
+          Object {
+            "bottom": 0,
+            "top": 0,
+          }
+        }
+        reversed={false}
+        scale="auto"
+        tickCount={5}
+        type="number"
+        unit="jt"
+        width={60}
+        yAxisId={0}
+      />
+      <Tooltip
+        active={false}
+        allowEscapeViewBox={
+          Object {
+            "x": false,
+            "y": false,
+          }
+        }
+        animationDuration={400}
+        animationEasing="ease"
+        content={
+          <CustomTooltip
+            active={false}
+            customProps={
+              Object {
+                "titleBottom": Object {
+                  "currency": true,
+                  "subCaption": "Transaksi",
+                  "tooltipColor": "primary",
+                  "value": "totalTransaction",
+                },
+                "titleUpper": Object {
+                  "currency": false,
+                  "subCaption": "Kontainer",
+                  "tooltipColor": "primary",
+                  "value": "totalContainer",
+                },
+              }
+            }
+            payload={Array []}
+          />
+        }
+        contentStyle={Object {}}
+        coordinate={
+          Object {
+            "x": 0,
+            "y": 0,
+          }
+        }
+        cursor={
+          Object {
+            "fill": "#efefef",
+          }
+        }
+        cursorStyle={Object {}}
+        filterNull={true}
+        isAnimationActive={true}
+        itemStyle={Object {}}
+        labelStyle={Object {}}
+        offset={10}
+        position={
+          Object {
+            "x": NaN,
+            "y": NaN,
+          }
+        }
+        separator=" : "
+        trigger="hover"
+        useTranslate3d={false}
+        viewBox={
+          Object {
+            "x1": 0,
+            "x2": 0,
+            "y1": 0,
+            "y2": 0,
+          }
+        }
+        wrapperStyle={Object {}}
+      />
+      <CartesianGrid
+        fill="none"
+        horizontal={true}
+        horizontalFill={Array []}
+        horizontalPoints={Array []}
+        stroke="#eee"
+        strokeDasharray="5 0"
+        vertical={true}
+        verticalFill={Array []}
+        verticalPoints={Array []}
+      />
+      <Bar
+        animationBegin={0}
+        animationDuration={400}
+        animationEasing="ease"
+        barSize={10}
+        data={Array []}
+        dataKey="yAxisBar"
+        fill="#487A9D"
+        hide={false}
+        isAnimationActive={true}
+        layout="vertical"
+        legendType="rect"
+        minPointSize={0}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        stackId="stackBar"
+        xAxisId={0}
+        yAxisId={0}
+      />
+      <Bar
+        animationBegin={0}
+        animationDuration={400}
+        animationEasing="ease"
+        barSize={10}
+        data={Array []}
+        dataKey="xAxisBar"
+        fill="#e8590c"
+        hide={false}
+        isAnimationActive={true}
+        layout="vertical"
+        legendType="rect"
+        minPointSize={0}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        stackId="stackBar"
+        xAxisId={0}
+        yAxisId={0}
+      />
+    </BarChart>
+  </ForwardRef>
+</div>
+`;

@@ -1,0 +1,15 @@
+.root {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 0.25rem;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+  padding: 0.9375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

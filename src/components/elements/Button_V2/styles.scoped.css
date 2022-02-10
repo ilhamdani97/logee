@@ -1,0 +1,37 @@
+.root {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 0.25rem;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+  padding: 0.9375rem;
+  display: flex;
+  align-items: center;
+}
+
+.root:disabled {
+  background-color:  var(--grey-40) !important;
+  color: var(--grey-60);
+  pointer-events: none;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.root > .loading {
+  animation: spin 2s linear infinite !important;
+  margin-right: .5rem;
+  width: 1rem;
+  height: 1rem;
+}
+
+.root > .loading > img {
+  width: 1rem;
+  height: 1rem;
+}
+

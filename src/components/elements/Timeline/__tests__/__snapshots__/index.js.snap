@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Timeline render 1`] = `
+<div>
+  <img
+    src={
+      Object {
+        "process": [Function],
+      }
+    }
+  />
+  <div>
+    <p>
+      Menunggu Konfirmasi
+    </p>
+    <p>
+      
+    </p>
+  </div>
+</div>
+`;
+
+exports[`src/components/elements/Timeline render with props 1`] = `
+<div>
+  <img
+    src={
+      Object {
+        "process": [Function],
+      }
+    }
+  />
+  <div>
+    <p>
+      Menunggu Konfirmasi
+    </p>
+    <p>
+      DD MMM YY, HH.mm
+    </p>
+  </div>
+</div>
+`;

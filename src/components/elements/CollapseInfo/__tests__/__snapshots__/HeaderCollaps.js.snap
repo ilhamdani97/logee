@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/HeaderCollaps render 1`] = `
+<div>
+  <Typography
+    spacing=""
+    type="p"
+  >
+    Armada
+  </Typography>
+  <Typography
+    spacing=""
+    type="p"
+  >
+    Total armada berdasarkan jenis dan kapasitasnya pada periode waktu yang dipilih.
+  </Typography>
+</div>
+`;

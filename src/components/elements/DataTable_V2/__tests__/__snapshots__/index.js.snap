@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/DataTable TableHeader 1`] = `<th />`;
+
+exports[`src/components/elements/DataTable TableRow 1`] = `
+<tr
+  className=""
+  onClick={[Function]}
+>
+  <td>
+    01
+  </td>
+  <td>
+    -
+  </td>
+  <td>
+    -
+  </td>
+  <td>
+    -
+  </td>
+</tr>
+`;
+
+exports[`src/components/elements/DataTable render 1`] = `
+<React.Fragment>
+  <table
+    className=""
+  >
+    <thead>
+      <tr>
+        <th>
+          No
+        </th>
+        <TableHeader
+          item={
+            Object {
+              "heading": "Nama",
+              "value": "name",
+            }
+          }
+        />
+        <TableHeader
+          item={
+            Object {
+              "heading": "Email",
+              "value": "email",
+            }
+          }
+        />
+        <TableHeader
+          item={
+            Object {
+              "heading": "No. Handphone",
+              "value": "phoneNumber",
+            }
+          }
+        />
+      </tr>
+    </thead>
+    <tbody>
+      <React.Fragment>
+        <TableRow
+          activeRow=""
+          className=""
+          column={
+            Array [
+              Object {
+                "heading": "Nama",
+                "value": "name",
+              },
+              Object {
+                "heading": "Email",
+                "value": "email",
+              },
+              Object {
+                "heading": "No. Handphone",
+                "value": "phoneNumber",
+              },
+            ]
+          }
+          handleClick={[Function]}
+          identifier="id"
+          idx={0}
+          item={
+            Object {
+              "email": "test@a.id",
+              "name": "Test",
+              "phoneNumber": "0811111111",
+            }
+          }
+          meta={Object {}}
+        />
+      </React.Fragment>
+      <React.Fragment>
+        <TableRow
+          activeRow=""
+          className=""
+          column={
+            Array [
+              Object {
+                "heading": "Nama",
+                "value": "name",
+              },
+              Object {
+                "heading": "Email",
+                "value": "email",
+              },
+              Object {
+                "heading": "No. Handphone",
+                "value": "phoneNumber",
+              },
+            ]
+          }
+          handleClick={[Function]}
+          identifier="id"
+          idx={1}
+          item={
+            Object {
+              "email": "test@a.id",
+              "name": "Test",
+              "phoneNumber": "0811111111",
+            }
+          }
+          meta={Object {}}
+        />
+      </React.Fragment>
+    </tbody>
+  </table>
+</React.Fragment>
+`;
+
+exports[`src/components/elements/DataTable render with children 1`] = `
+<React.Fragment>
+  <table
+    className=""
+  >
+    <thead>
+      <tr>
+        <th />
+        <TableHeader
+          item={
+            Object {
+              "heading": "Nama",
+              "value": "name",
+            }
+          }
+        />
+        <TableHeader
+          item={
+            Object {
+              "heading": "Email",
+              "value": "email",
+            }
+          }
+        />
+        <TableHeader
+          item={
+            Object {
+              "heading": "No. Handphone",
+              "value": "phoneNumber",
+            }
+          }
+        />
+      </tr>
+    </thead>
+    <tbody>
+      <React.Fragment>
+        <TableRow
+          activeRow=""
+          className=""
+          column={
+            Array [
+              Object {
+                "heading": "Nama",
+                "value": "name",
+              },
+              Object {
+                "heading": "Email",
+                "value": "email",
+              },
+              Object {
+                "heading": "No. Handphone",
+                "value": "phoneNumber",
+              },
+            ]
+          }
+          handleClick={[Function]}
+          identifier="id"
+          idx={0}
+          item={
+            Object {
+              "email": "test@a.id",
+              "name": "Test",
+              "phoneNumber": "0811111111",
+            }
+          }
+          meta={Object {}}
+        >
+          <div />
+        </TableRow>
+      </React.Fragment>
+      <React.Fragment>
+        <TableRow
+          activeRow=""
+          className=""
+          column={
+            Array [
+              Object {
+                "heading": "Nama",
+                "value": "name",
+              },
+              Object {
+                "heading": "Email",
+                "value": "email",
+              },
+              Object {
+                "heading": "No. Handphone",
+                "value": "phoneNumber",
+              },
+            ]
+          }
+          handleClick={[Function]}
+          identifier="id"
+          idx={1}
+          item={
+            Object {
+              "email": "test@a.id",
+              "name": "Test",
+              "phoneNumber": "0811111111",
+            }
+          }
+          meta={Object {}}
+        >
+          <div />
+        </TableRow>
+      </React.Fragment>
+    </tbody>
+  </table>
+</React.Fragment>
+`;

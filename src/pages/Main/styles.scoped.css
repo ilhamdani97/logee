@@ -1,0 +1,38 @@
+.root {
+  padding: 1.6rem;
+  margin: 8px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  margin-top: 1.6rem;
+}
+
+.root > h1 {
+  left: 50%;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.root > div:nth-child(2) {
+  margin-top: 30px;
+}
+
+.dashboardCollaps {
+  background-color: #ffffff;
+  margin: 0 12px;
+}
+
+.periodeRight {
+  text-align: left;
+}
+
+.hidden {
+  display: none;
+}
+@media only screen and (max-width: 48em) {
+  .root {
+    padding: 1rem;
+  }
+}

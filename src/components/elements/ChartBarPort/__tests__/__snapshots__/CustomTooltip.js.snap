@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/CustomTooltip render 1`] = `
+<div>
+  <div
+    className=" "
+  >
+    
+          
+          undefined 
+          Pesanan
+          
+  </div>
+  <div
+    className=" "
+  >
+    
+          
+          Rp NaN 
+          
+  </div>
+</div>
+`;

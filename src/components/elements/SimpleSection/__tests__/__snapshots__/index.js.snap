@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/SimpleSection render 1`] = `
+<Row
+  alignContent=""
+  alignItem=""
+  className=" "
+  direction=""
+  id=""
+  justify=""
+  noGutter={false}
+>
+  <Col
+    className=""
+    id=""
+    lg=""
+    md=""
+    offsetLg=""
+    offsetMd=""
+    offsetSm=""
+    offsetXL=""
+    offsetXs=""
+    orderLg=""
+    orderMd=""
+    orderSm=""
+    orderXl=""
+    orderXs=""
+    sm=""
+    xl=""
+    xs="12"
+  >
+    <Typography
+      spacing=""
+      variant="h5"
+    >
+      asdasd
+    </Typography>
+  </Col>
+  <React.Fragment />
+</Row>
+`;

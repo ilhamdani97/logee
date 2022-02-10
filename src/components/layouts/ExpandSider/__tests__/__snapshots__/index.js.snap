@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/ExpandSider render close 1`] = `
+<div
+  id="sider-parent--1"
+>
+  <section
+    onClick={[Function]}
+  >
+    <UNDEFINED />
+    Laporan
+  </section>
+  <ul
+    style={
+      Object {
+        "maxHeight": "12rem",
+      }
+    }
+  >
+    <li
+      className=""
+    >
+      <Link
+        className=""
+        to="/pemesanan"
+      >
+        Pemesanan
+      </Link>
+    </li>
+    <li
+      className=""
+    >
+      <Link
+        className=""
+        to="/pembayaran"
+      >
+        Pembayaran
+      </Link>
+    </li>
+    <li
+      className=""
+    >
+      <Link
+        className=""
+        to="/penagihan"
+      >
+        Penagihan
+      </Link>
+    </li>
+    <li
+      className=""
+    >
+      <Link
+        className=""
+        to="/internalB2B"
+      >
+        Internal B2B
+      </Link>
+    </li>
+  </ul>
+</div>
+`;

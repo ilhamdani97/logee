@@ -1,0 +1,65 @@
+.root > form > div {
+  background-color: var(--background-color-2);
+  border-radius: 0.1875rem;
+  width: 15rem;
+  border: 0.125rem;
+  border-color: var(--grey-color-2);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 15rem;
+}
+
+.root > form > div > input {
+  border: 0.0625rem solid var(--grey-color-3);
+  border-radius:  0.25rem;
+  box-shadow: none;
+  color: var(--text-color);
+  display: block;
+  font-size: 0.875rem;
+  font-weight: bold;
+  padding: 0.75rem 0.5rem;
+  width: 13.5rem;
+  height: 2.125rem;
+  background-color: var(--background-color-2);
+  transition: border 0.25s;
+  overflow: auto;
+  padding-right: 2.8rem;
+}
+
+.root > form > div > input:disabled {
+  background-color: var(--background-color);
+}
+
+.root > form > div > input:focus {
+  border-color: var(--primary-color);
+}
+
+.root > form > div > input::placeholder {
+  color: var(--light-text-color);
+}
+
+.root > form > div > div {
+  height: auto;
+  margin-left: -2.1rem;
+}
+
+.root > form > div > div > button {
+  height: 2rem;
+  width: 2.05rem;
+  background-color: var(--light-text-color);
+  border-radius: 0 0.23rem 0.23rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid var(--grey-color-3);
+}
+
+.root > form > div > div > button > img {
+  height: 0.910626rem;
+  width: 0.910625rem;
+}
+
+

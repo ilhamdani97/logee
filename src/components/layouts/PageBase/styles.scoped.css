@@ -1,0 +1,25 @@
+.main {
+  padding-top: 48px;
+}
+
+.separator {
+  width: 100%;
+  height: 0.0625rem;
+  margin: 0.75rem 0;
+  background-color: var(--grey-40);
+}
+
+.noPadding {
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .main {
+    display: block;
+    margin-left: 16rem;
+    padding-top: 3.7rem;
+    padding-bottom: 2.5rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+  }
+}

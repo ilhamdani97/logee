@@ -1,0 +1,62 @@
+.root{
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.root.green{
+  background-color: var(--green-10);
+}
+
+.root.red{
+  background-color: var(--red-10);
+}
+
+
+
+.toolTips{
+  text-align: right;
+}
+
+.toolTips img + div{
+  bottom: -50px !important;
+  display: flex;
+  align-items: center;
+}
+
+.title{
+  font-size: 14px;
+}
+
+.title a{
+  font-size: inherit;
+}
+
+
+.content{
+  padding-top: 0;
+}
+.content p{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.tootlMsg{
+  width: 230px;
+  white-space: initial;
+  text-align: center;
+  font-size: 8px;
+}
+
+.tootlMsg p{
+  font-size: 12px;
+}
+
+.linkArrow{
+  display: flex;
+  justify-content: space-between;
+}
+
+.linkArrow img{
+  width: 8px;
+  height: 14px;
+  margin-top: 8px;
+}

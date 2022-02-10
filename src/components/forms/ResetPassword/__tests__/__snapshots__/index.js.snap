@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/ResetPassword render 1`] = `
+<React.Fragment>
+  <form>
+    <Field
+      component={[Function]}
+      inputProps={
+        Object {
+          "placeholder": "Cth. ganendra@gmail.com",
+        }
+      }
+      label="Email"
+      name="email"
+    />
+    <Button
+      buttonProps={Object {}}
+      className=""
+      color="default"
+      disabled={false}
+      fullwidth={false}
+      isLoading={false}
+      loadingType="text"
+      onClick={[Function]}
+      size="medium"
+    >
+      Kirim
+    </Button>
+  </form>
+  <span>
+    test
+  </span>
+</React.Fragment>
+`;

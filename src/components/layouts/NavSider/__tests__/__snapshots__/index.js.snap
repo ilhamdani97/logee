@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/NavSider render 1`] = `
+<React.Fragment>
+  <Link
+    to="/"
+  >
+    <section>
+      <UNDEFINED />
+      Logee Port
+    </section>
+  </Link>
+</React.Fragment>
+`;

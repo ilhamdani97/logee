@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/Register render 1`] = `
+<React.Fragment>
+  <form>
+    <div>
+      <Field
+        component={[Function]}
+        inputProps={
+          Object {
+            "placeholder": "Contoh: 123456789000000",
+          }
+        }
+        label="Nomor NPWP Perusahaan"
+        name="npwp"
+      />
+      <div>
+        <Tooltip
+          content={
+            <p>
+              Pastikan nomor NPWP Benar, 
+              <br />
+              digunakan untuk aktivasi akun 
+              <br />
+              dan verifikasi transaksi.
+            </p>
+          }
+          delay={0}
+          direction="bottom"
+        >
+          <img
+            src="/assets/ic-info-circle.svg"
+          />
+        </Tooltip>
+      </div>
+    </div>
+    <div>
+      <Field
+        component={[Function]}
+        inputProps={
+          Object {
+            "placeholder": "Contoh: 081234567890",
+          }
+        }
+        label="Nomor Handphone Anda"
+        name="phone"
+      />
+      <div>
+        <Tooltip
+          content={
+            <p>
+              Pastikan nomor Anda Aktif 
+              <br />
+              dan Benar, digunakan untuk 
+              <br />
+              menerima SMS OTP transaksi.
+            </p>
+          }
+          delay={0}
+          direction="bottom"
+        >
+          <img
+            src="/assets/ic-info-circle.svg"
+          />
+        </Tooltip>
+      </div>
+    </div>
+    <Field
+      component={[Function]}
+      inputProps={
+        Object {
+          "placeholder": "Contoh: email@logeeport.id",
+        }
+      }
+      label="Email Anda"
+      name="email"
+    />
+    <Field
+      component={[Function]}
+      inputProps={
+        Object {
+          "placeholder": "Contoh: Muhammad Fahmi Faisal Hikmawan",
+        }
+      }
+      label="Nama Lengkap Anda"
+      name="name"
+    />
+    <Field
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "compare": [Function],
+          "type": [Function],
+        }
+      }
+      inputProps={
+        Object {
+          "placeholder": "Min. 8 karakter terdiri dari huruf besar & angka",
+        }
+      }
+      label="Kata Sandi Akun Anda"
+      name="password"
+    />
+    <Field
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "compare": [Function],
+          "type": [Function],
+        }
+      }
+      inputProps={
+        Object {
+          "placeholder": "Min. 8 karakter terdiri dari huruf besar & angka",
+        }
+      }
+      label="Ulangi Kata Sandi Akun Anda"
+      name="retypepassword"
+    />
+    <Button
+      buttonProps={Object {}}
+      className=""
+      color="default"
+      disabled={false}
+      fullwidth={false}
+      isLoading={false}
+      loadingType="text"
+      onClick={[Function]}
+      size="medium"
+    >
+      Daftar
+    </Button>
+    <div>
+      Dengan mendaftar, kamu telah menyetujui 
+      <span>
+        Kebijakan Privasi
+      </span>
+    </div>
+  </form>
+</React.Fragment>
+`;

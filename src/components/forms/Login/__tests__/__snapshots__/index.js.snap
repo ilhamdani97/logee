@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/Login render 1`] = `
+<React.Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <Field
+      component={[Function]}
+      inputProps={
+        Object {
+          "placeholder": "Email",
+        }
+      }
+      label="Email"
+      name="email"
+    />
+    <Field
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "compare": [Function],
+          "type": [Function],
+        }
+      }
+      inputProps={
+        Object {
+          "placeholder": "Password",
+        }
+      }
+      label="Password"
+      name="password"
+    />
+    <div
+      onClick={[Function]}
+    >
+      Lupa Password?
+    </div>
+    <Button
+      buttonProps={Object {}}
+      className=""
+      disabled={false}
+      isLoading={false}
+      onClick={[Function]}
+      onSubmit={[Function]}
+    >
+      MASUK
+    </Button>
+  </form>
+  <p>
+    test
+  </p>
+</React.Fragment>
+`;

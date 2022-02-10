@@ -1,0 +1,120 @@
+/* Styling Order Status */
+
+.rootOrder {
+  background-color: var(--grey-40);
+  width: fit-content;
+  height: 3rem;
+  padding: 1.0625rem 1.1875rem;
+  border-radius: 0.25rem;
+}
+
+.rootOrder > p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  text-align: center;
+}
+
+.typeStatus1,
+.typeStatus3,
+.typeStatus6 {
+  background-color: var(--orange-10);
+}
+
+.typeStatus1,
+.typeStatus3,
+.typeStatus6 > p {
+  color: var(--orange-70);
+}
+
+.typeStatus2,
+.typeStatus4,
+.typeStatus7,
+.typeStatus9,
+.typeStatus10 {
+  background-color: var(--green-10);
+}
+
+.typeStatus2,
+.typeStatus4,
+.typeStatus7,
+.typeStatus9,
+.typeStatus10 > p {
+  color: var(--green-60);
+}
+
+.typeStatus5,
+.typeStatus8 {
+  background-color: var(--grey-40);
+}
+
+.typeStatus5,
+.typeStatus8 > p {
+  color: var(--grey-90);
+}
+
+.typeStatus11 {
+  background-color: var(--red-10);
+}
+
+.typeStatus11 > p {
+  color: var(--red-60);
+}
+
+/* Styling Tracking Status */
+
+.rootTracking {
+  background-color: black;
+  width: 100%;
+  height: 2.5rem;
+  padding: 0.5rem 1.3125rem 0.5rem 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+}
+
+.rootTracking > img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.rootTracking > div {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e8590c;
+}
+
+.rootTracking > p {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
+
+.trackingStatus1,
+.trackingStatus3,
+.trackingStatus6 {
+  background-color: var(--orange-90);
+}
+
+.trackingStatus2,
+.trackingStatus4,
+.trackingStatus7,
+.trackingStatus9,
+.trackingStatus10 {
+  background-color: var(--green-60);
+}
+
+.trackingStatus5,
+.trackingStatus8 {
+  background-color: #757575;
+}

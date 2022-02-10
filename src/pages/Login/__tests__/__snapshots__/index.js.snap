@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/pages/Login render 1`] = `
+<Row
+  alignContent=""
+  alignItem="center"
+  className=""
+  direction=""
+  id=""
+  justify=""
+  noGutter={false}
+>
+  <Col
+    className=""
+    id=""
+    lg=""
+    md="6"
+    offsetLg=""
+    offsetMd=""
+    offsetSm=""
+    offsetXL=""
+    offsetXs=""
+    orderLg=""
+    orderMd=""
+    orderSm=""
+    orderXl=""
+    orderXs=""
+    sm=""
+    xl=""
+    xs="12"
+  >
+    <Webp
+      alt=""
+      className=""
+      name="login_bg.jpg"
+      style={Object {}}
+    />
+  </Col>
+  <Col
+    className=""
+    id=""
+    lg=""
+    md="6"
+    offsetLg=""
+    offsetMd=""
+    offsetSm=""
+    offsetXL=""
+    offsetXs=""
+    orderLg=""
+    orderMd=""
+    orderSm=""
+    orderXl=""
+    orderXs=""
+    sm=""
+    xl=""
+    xs="12"
+  >
+    <h3>
+      Selamat Datang di
+      <br />
+      <span>
+        Logee
+      </span>
+    </h3>
+    <ReduxForm
+      destroyOnUnmount={true}
+      enableReinitialize={false}
+      forceUnregisterOnUnmount={false}
+      form="login"
+      getFormState={[Function]}
+      initialValues={
+        Object {
+          "email": "",
+          "password": "",
+        }
+      }
+      keepDirtyOnReinitialize={false}
+      onSubmit={[Function]}
+      persistentSubmitErrors={false}
+      pure={true}
+      shouldAsyncValidate={[Function]}
+      shouldError={[Function]}
+      shouldValidate={[Function]}
+      shouldWarn={[Function]}
+      submitAsSideEffect={false}
+      touchOnBlur={true}
+      touchOnChange={false}
+      updateUnregisteredFields={false}
+      validate={[Function]}
+    />
+    <div>
+      Belum memiliki akun?
+       
+      <span
+        onClick={[Function]}
+      >
+        Daftar Sekarang
+      </span>
+    </div>
+  </Col>
+</Row>
+`;

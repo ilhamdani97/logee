@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fields/Select render 1`] = `
+<div>
+  <label />
+  <div>
+    <span>
+      <img
+        alt="icon arrow"
+        src="../../../assets/ic-expand.svg"
+      />
+    </span>
+    <select
+      className=""
+    >
+      <option
+        value=""
+      />
+      <option
+        value=""
+      >
+        
+      </option>
+    </select>
+  </div>
+</div>
+`;

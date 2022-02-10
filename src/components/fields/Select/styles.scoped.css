@@ -1,0 +1,76 @@
+.root {
+  appearance: none;
+  border: 1px solid #E8E8E8;
+  border-radius: 0.25rem;
+  box-shadow: none;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-top: 0.625rem;
+  margin-bottom: 0.5rem;
+  outline: none;
+  padding: 0 2.8rem 0 0.75rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 100%;
+  height: 2.5rem;
+  background-color: #f2f2f2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  position:absolute;
+  margin-top: 0.16rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  pointer-events:none;
+  z-index: 1;
+  background-color: #CACCCF;
+  border-radius: 0px 3px 3px 0px;
+  align-items: center;
+}
+
+.arrow > img {
+  width: 1.3rem;
+  height: 1.5rem;
+}
+
+.root:not(.error):focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0 .0625rem var(--primary-color);
+  color: #333435;
+}
+
+.empty {
+  color: #b2b4b5;
+}
+
+.root.error {
+  border-color: var(--error-color);
+}
+
+div small.error {
+  color: var(--error-color);
+  display: block;
+  font-size: 0.75rem;
+}
+
+.label {
+  color: var(--grey-color-1);
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: bold;
+}
+
+.root > option:not(:first-child){ 
+  color: black;
+}

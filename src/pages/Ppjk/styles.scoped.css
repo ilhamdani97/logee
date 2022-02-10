@@ -1,0 +1,92 @@
+.root {
+    padding: 1.6rem;
+    margin: 8px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    margin-top: 1.6rem;
+  }
+
+  table {
+      margin-top: 1.6rem;
+  }
+  
+  .root > h1 {
+    left: 50%;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .root > div:nth-child(2) {
+    margin-top: 30px;
+  }
+  .statusWrapperActive {
+    background-color: aquamarine;
+    color: #000000;
+    padding: 4px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .statusWrapperNoActive {
+    background-color: pink;
+    color: #fff;
+    padding: 4px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+
+  .dashboardCollaps {
+    background-color: #ffffff;
+    margin: 0 12px;
+  }
+  
+  .periodeRight {
+    text-align: left;
+  }
+
+  .contentBottomModal {
+    padding-top: 4rem;
+    padding-bottom: 1.6rem;
+  }
+
+  .modal {
+    min-width: 400px;
+    min-height: 450px;
+    background-color: #ffffff;
+    padding: 8px;
+  }
+
+  .titleModal {
+      font-size: 18px;
+      font-weight: 600;
+      color: #000000;
+      margin-bottom: 8px;
+  }
+  
+  .titleContent {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+  .containerAccount {
+      min-width: 100%;
+      background-color: #f5f5f5;
+      border-radius: 8px;
+  }
+
+  
+  .hidden {
+    display: none;
+  }
+  @media only screen and (max-width: 48em) {
+    .root {
+      padding: 1rem;
+    }
+}
+  

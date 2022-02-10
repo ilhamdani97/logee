@@ -1,0 +1,39 @@
+header {
+  background-color: #F5F5F5;
+  width: 100%;
+  left: 18rem;
+  top: 0px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.logo {
+  color: #001529;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 70px;
+  padding-left: 20px;
+}
+
+.logo > img{
+  height: 45px;
+  position: relative;
+  top: 10px
+}
+.userAkses {
+  display: flex;
+  background-color: #ffffff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: #001529;
+  align-items: center;
+  margin-right: 20px;
+}
+.userAksesIcon {
+  margin-right: 8px;
+}

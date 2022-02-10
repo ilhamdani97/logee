@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/RedirectToAdminTruk render 1`] = `
+<RedirectModal
+  className=""
+  open={true}
+>
+  <p>
+    Mengarahkan ke Logee Truk
+  </p>
+  <p>
+    Anda dapat melihat detail pemesanan truk lebih detail di Logee Truck.
+  </p>
+</RedirectModal>
+`;

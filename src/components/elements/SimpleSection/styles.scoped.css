@@ -1,0 +1,19 @@
+.root {
+  background-color: var(--background-color-2);
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+.noPadSide {
+  padding: 8px 0;
+}
+
+.title {
+  border-bottom: 2px solid var(--grey-color-3);
+  padding: 12px;
+  font-size: 18px;
+  color: #000000;
+  text-transform: capitalize;
+  font-weight: 700;
+}

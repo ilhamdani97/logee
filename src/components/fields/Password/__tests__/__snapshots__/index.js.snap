@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fields/Password render 1`] = `
+<div
+  className=""
+>
+  <label>
+    
+  </label>
+  <div
+    className=""
+  >
+    <input
+      type="password"
+    />
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      <img
+        alt="hide"
+        src="/assets/ic-password-hide.svg"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`src/components/fields/Password render with show password 1`] = `
+<div
+  className=""
+>
+  <label>
+    
+  </label>
+  <div
+    className=""
+  >
+    <input
+      type="text"
+    />
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      <img
+        alt="show"
+        src="/assets/ic-password-show.svg"
+      />
+    </button>
+  </div>
+</div>
+`;

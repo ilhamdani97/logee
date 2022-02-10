@@ -1,0 +1,35 @@
+.content {
+  display: flex;
+  align-items: flex-start;
+}
+
+
+.content > img {
+  margin-bottom: 0.25rem;
+  width: 0.75rem;
+}
+
+.content > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.content > div > p {
+  margin-left: 1.3125rem;
+  margin-bottom: 0.5rem;
+}
+
+.content > div > p:last-child {
+  margin-bottom: 0;
+}
+
+.content > div > p:first-child {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.content > div > p:last-child {
+  font-size: 0.75rem;
+  font-weight: normal;
+  color: #A0A4A8;
+}
